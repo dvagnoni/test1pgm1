@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface quizViewController : UIViewController
+- (IBAction)swap:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
